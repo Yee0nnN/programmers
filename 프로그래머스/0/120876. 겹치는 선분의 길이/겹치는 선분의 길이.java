@@ -1,7 +1,7 @@
 class Solution {
 	public int solution(int[][] lines) {
 		int answer = 0;
-		int[] num = new int[200];
+		int[] num = new int[201];
 
 		for (int[] line : lines) {
 			for (int i = (line[0] + 100); i < (line[1] + 100); i++) {
