@@ -3,7 +3,6 @@ class Solution {
 		int answer = 0;
 		int[] give = new int[friends.length];
 		int[] get = new int[friends.length];
-
 		int[][] giveList = new int[friends.length][friends.length];
 
 		for (String g : gifts) {
