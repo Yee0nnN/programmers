@@ -8,8 +8,8 @@ class Solution {
 
 		for (String g : gifts) {
 			String[] giftFriends = g.split(" ");
-			int giver = -1;
-			int getter = -1;
+			int giver = 0;
+			int getter = 0;
 
 			for (int i = 0; i < friends.length; i++) {
 				if (friends[i].equals(giftFriends[0]))
