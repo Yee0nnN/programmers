@@ -6,7 +6,7 @@ class Solution {
 			int count = 0;
 			for (int j = 1; j * j <= i; j++) {
 				if (i % j == 0) {
-					count += 2; //
+					count += 2; 
 
 					if (j * j == i) {
 						count--;
