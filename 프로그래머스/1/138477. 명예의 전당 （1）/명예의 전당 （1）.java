@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Comparator;
 
 class Solution {
 	public int[] solution(int k, int[] score) {
